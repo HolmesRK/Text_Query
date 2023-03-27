@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/holmes/Cpp/Text_Query/build/src",
+  "command": "/home/holmes/clang+llvm-16.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang++  -I/home/holmes/Cpp/Text_Query/include -I/home/holmes/Cpp/Text_Query/src -std=c++17 -std=c++17 -march=native -O3 -pthread -g -O3 -DNDEBUG -o CMakeFiles/TextQuery.dir/QueryResult.cpp.o -c /home/holmes/Cpp/Text_Query/src/QueryResult.cpp",
+  "file": "/home/holmes/Cpp/Text_Query/src/QueryResult.cpp"
+},
+{
+  "directory": "/home/holmes/Cpp/Text_Query/build/src",
+  "command": "/home/holmes/clang+llvm-16.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang++  -I/home/holmes/Cpp/Text_Query/include -I/home/holmes/Cpp/Text_Query/src -std=c++17 -std=c++17 -march=native -O3 -pthread -g -O3 -DNDEBUG -o CMakeFiles/TextQuery.dir/TextQuery.cpp.o -c /home/holmes/Cpp/Text_Query/src/TextQuery.cpp",
+  "file": "/home/holmes/Cpp/Text_Query/src/TextQuery.cpp"
+},
+{
+  "directory": "/home/holmes/Cpp/Text_Query/build/src",
+  "command": "/home/holmes/clang+llvm-16.0.0-x86_64-linux-gnu-ubuntu-18.04/bin/clang++  -I/home/holmes/Cpp/Text_Query/include -I/home/holmes/Cpp/Text_Query/src -std=c++17 -std=c++17 -march=native -O3 -pthread -g -O3 -DNDEBUG -o CMakeFiles/TextQuery.dir/main.cpp.o -c /home/holmes/Cpp/Text_Query/src/main.cpp",
+  "file": "/home/holmes/Cpp/Text_Query/src/main.cpp"
+}
+]
