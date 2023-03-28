@@ -1,6 +1,6 @@
 # 查找当前目录下的所有源文件
 # 并将名称保存到 DIR_LIB_SRCS 变量
-aux_source_directory(. SRCS)
+aux_source_directory(. DIR_LIB_SRCS)
 # 生成链接库
-# add_library (Packages ${DIR_LIB_SRCS})
-add_executable(TextQuery ${SRCS})
+add_library(Packages SHARED ${DIR_LIB_SRCS})
+

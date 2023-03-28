@@ -147,25 +147,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/TextQuery.dir/rule:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TextQuery.dir/rule
-.PHONY : src/CMakeFiles/TextQuery.dir/rule
+src/CMakeFiles/Packages.dir/rule:
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Packages.dir/rule
+.PHONY : src/CMakeFiles/Packages.dir/rule
 
 # Convenience name for target.
-TextQuery: src/CMakeFiles/TextQuery.dir/rule
-.PHONY : TextQuery
+Packages: src/CMakeFiles/Packages.dir/rule
+.PHONY : Packages
 
 # fast build rule for target.
-TextQuery/fast:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/build
-.PHONY : TextQuery/fast
+Packages/fast:
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/build
+.PHONY : Packages/fast
 
 QueryResult.o: QueryResult.cpp.o
 .PHONY : QueryResult.o
 
 # target to build an object file
 QueryResult.cpp.o:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/QueryResult.cpp.o
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/QueryResult.cpp.o
 .PHONY : QueryResult.cpp.o
 
 QueryResult.i: QueryResult.cpp.i
@@ -173,7 +173,7 @@ QueryResult.i: QueryResult.cpp.i
 
 # target to preprocess a source file
 QueryResult.cpp.i:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/QueryResult.cpp.i
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/QueryResult.cpp.i
 .PHONY : QueryResult.cpp.i
 
 QueryResult.s: QueryResult.cpp.s
@@ -181,7 +181,7 @@ QueryResult.s: QueryResult.cpp.s
 
 # target to generate assembly for a file
 QueryResult.cpp.s:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/QueryResult.cpp.s
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/QueryResult.cpp.s
 .PHONY : QueryResult.cpp.s
 
 TextQuery.o: TextQuery.cpp.o
@@ -189,7 +189,7 @@ TextQuery.o: TextQuery.cpp.o
 
 # target to build an object file
 TextQuery.cpp.o:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/TextQuery.cpp.o
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/TextQuery.cpp.o
 .PHONY : TextQuery.cpp.o
 
 TextQuery.i: TextQuery.cpp.i
@@ -197,7 +197,7 @@ TextQuery.i: TextQuery.cpp.i
 
 # target to preprocess a source file
 TextQuery.cpp.i:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/TextQuery.cpp.i
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/TextQuery.cpp.i
 .PHONY : TextQuery.cpp.i
 
 TextQuery.s: TextQuery.cpp.s
@@ -205,32 +205,32 @@ TextQuery.s: TextQuery.cpp.s
 
 # target to generate assembly for a file
 TextQuery.cpp.s:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/TextQuery.cpp.s
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/TextQuery.cpp.s
 .PHONY : TextQuery.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+runQueries.o: runQueries.cpp.o
+.PHONY : runQueries.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/main.cpp.o
-.PHONY : main.cpp.o
+runQueries.cpp.o:
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/runQueries.cpp.o
+.PHONY : runQueries.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+runQueries.i: runQueries.cpp.i
+.PHONY : runQueries.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/main.cpp.i
-.PHONY : main.cpp.i
+runQueries.cpp.i:
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/runQueries.cpp.i
+.PHONY : runQueries.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+runQueries.s: runQueries.cpp.s
+.PHONY : runQueries.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/main.cpp.s
-.PHONY : main.cpp.s
+runQueries.cpp.s:
+	cd /home/holmes/Cpp/Text_Query/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/runQueries.cpp.s
+.PHONY : runQueries.cpp.s
 
 # Help Target
 help:
@@ -243,16 +243,16 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... TextQuery"
+	@echo "... Packages"
 	@echo "... QueryResult.o"
 	@echo "... QueryResult.i"
 	@echo "... QueryResult.s"
 	@echo "... TextQuery.o"
 	@echo "... TextQuery.i"
 	@echo "... TextQuery.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... runQueries.o"
+	@echo "... runQueries.i"
+	@echo "... runQueries.s"
 .PHONY : help
 
 

@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/holmes/Cpp/Text_Query/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/TextQuery.dir/all
 all: src/all
 .PHONY : all
 
@@ -99,6 +100,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
+clean: CMakeFiles/TextQuery.dir/clean
 clean: src/clean
 .PHONY : clean
 
@@ -106,7 +108,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/TextQuery.dir/all
+src/all: src/CMakeFiles/Packages.dir/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
@@ -114,7 +116,7 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/TextQuery.dir/clean
+src/clean: src/CMakeFiles/Packages.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
@@ -846,30 +848,56 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/TextQuery.dir
+# Target rules for target CMakeFiles/TextQuery.dir
 
 # All Build rule for target.
-src/CMakeFiles/TextQuery.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/holmes/Cpp/Text_Query/build/CMakeFiles --progress-num=1,2,3,4 "Built target TextQuery"
-.PHONY : src/CMakeFiles/TextQuery.dir/all
+CMakeFiles/TextQuery.dir/all: src/CMakeFiles/Packages.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextQuery.dir/build.make CMakeFiles/TextQuery.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextQuery.dir/build.make CMakeFiles/TextQuery.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/holmes/Cpp/Text_Query/build/CMakeFiles --progress-num=5,6 "Built target TextQuery"
+.PHONY : CMakeFiles/TextQuery.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/TextQuery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/holmes/Cpp/Text_Query/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/TextQuery.dir/all
+CMakeFiles/TextQuery.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/holmes/Cpp/Text_Query/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TextQuery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/holmes/Cpp/Text_Query/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/TextQuery.dir/rule
+.PHONY : CMakeFiles/TextQuery.dir/rule
 
 # Convenience name for target.
-TextQuery: src/CMakeFiles/TextQuery.dir/rule
+TextQuery: CMakeFiles/TextQuery.dir/rule
 .PHONY : TextQuery
 
 # clean rule for target.
-src/CMakeFiles/TextQuery.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/TextQuery.dir/build.make src/CMakeFiles/TextQuery.dir/clean
-.PHONY : src/CMakeFiles/TextQuery.dir/clean
+CMakeFiles/TextQuery.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TextQuery.dir/build.make CMakeFiles/TextQuery.dir/clean
+.PHONY : CMakeFiles/TextQuery.dir/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/Packages.dir
+
+# All Build rule for target.
+src/CMakeFiles/Packages.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/holmes/Cpp/Text_Query/build/CMakeFiles --progress-num=1,2,3,4 "Built target Packages"
+.PHONY : src/CMakeFiles/Packages.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/Packages.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/holmes/Cpp/Text_Query/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Packages.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/holmes/Cpp/Text_Query/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/Packages.dir/rule
+
+# Convenience name for target.
+Packages: src/CMakeFiles/Packages.dir/rule
+.PHONY : Packages
+
+# clean rule for target.
+src/CMakeFiles/Packages.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/Packages.dir/build.make src/CMakeFiles/Packages.dir/clean
+.PHONY : src/CMakeFiles/Packages.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

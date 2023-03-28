@@ -286,6 +286,9 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
+//Path to a program.
+GITCOMMAND:FILEPATH=/usr/bin/git
+
 //Command to build the project
 MAKECOMMAND:STRING=/usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 
@@ -306,51 +309,6 @@ TextQuery_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 TextQuery_SOURCE_DIR:STATIC=/home/holmes/Cpp/Text_Query
-
-//Value Computed by CMake
-Text_BINARY_DIR:STATIC=/home/holmes/Cpp/Text_Query/build
-
-//Value Computed by CMake
-Text_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Text_Q_BINARY_DIR:STATIC=/home/holmes/Cpp/Text_Query/build
-
-//Value Computed by CMake
-Text_Q_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Text_Q_SOURCE_DIR:STATIC=/home/holmes/Cpp/Text_Query
-
-//Value Computed by CMake
-Text_Query_BINARY_DIR:STATIC=/home/holmes/Cpp/Text_Query/build
-
-//Value Computed by CMake
-Text_Query_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Text_Query_SOURCE_DIR:STATIC=/home/holmes/Cpp/Text_Query
-
-//Value Computed by CMake
-Text_SOURCE_DIR:STATIC=/home/holmes/Cpp/Text_Query
-
-//Value Computed by CMake
-Text__BINARY_DIR:STATIC=/home/holmes/Cpp/Text_Query/build
-
-//Value Computed by CMake
-Text__IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Text__SOURCE_DIR:STATIC=/home/holmes/Cpp/Text_Query
-
-//Value Computed by CMake
-demo_BINARY_DIR:STATIC=/home/holmes/Cpp/Text_Query/build
-
-//Value Computed by CMake
-demo_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-demo_SOURCE_DIR:STATIC=/home/holmes/Cpp/Text_Query
 
 
 ########################
@@ -435,10 +393,6 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
-//Test CMAKE_HAVE_LIBC_PTHREAD
-CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
-//Have include pthread.h
-CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/holmes/Cpp/Text_Query
@@ -546,8 +500,8 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
-//Details about finding Threads
-FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND

@@ -26,12 +26,13 @@
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/ContinuousCoverage.dir
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/ContinuousMemCheck.dir
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/ContinuousSubmit.dir
+/home/holmes/Cpp/Text_Query/build/CMakeFiles/TextQuery.dir
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/package.dir
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/package_source.dir
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/test.dir
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/edit_cache.dir
 /home/holmes/Cpp/Text_Query/build/CMakeFiles/rebuild_cache.dir
-/home/holmes/Cpp/Text_Query/build/src/CMakeFiles/TextQuery.dir
+/home/holmes/Cpp/Text_Query/build/src/CMakeFiles/Packages.dir
 /home/holmes/Cpp/Text_Query/build/src/CMakeFiles/package.dir
 /home/holmes/Cpp/Text_Query/build/src/CMakeFiles/package_source.dir
 /home/holmes/Cpp/Text_Query/build/src/CMakeFiles/test.dir
