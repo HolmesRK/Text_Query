@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../lib/libPackages.pdb"
-  "../../lib/libPackages.so"
+  "/home/holmes/Cpp/Text_Query/lib/libPackages.pdb"
+  "/home/holmes/Cpp/Text_Query/lib/libPackages.so"
   "CMakeFiles/Packages.dir/QueryResult.cpp.o"
   "CMakeFiles/Packages.dir/QueryResult.cpp.o.d"
   "CMakeFiles/Packages.dir/TextQuery.cpp.o"
